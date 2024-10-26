@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="nMFThbKsBpaWswsRyVpP">
-    <mxGraphModel dx="2074" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +18,7 @@
         <mxCell id="12Ewsj-NQ9XgnYStTim0-9" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=north;" parent="12Ewsj-NQ9XgnYStTim0-6" vertex="1">
           <mxGeometry y="104" width="228" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="12Ewsj-NQ9XgnYStTim0-19" value="+ login(email_address,password): bool&lt;div&gt;+ getUserName(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ updateProfile(): void&lt;/div&gt;&lt;div&gt;+isTwoFactorEnabled(): bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="12Ewsj-NQ9XgnYStTim0-6" vertex="1">
+        <mxCell id="12Ewsj-NQ9XgnYStTim0-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;+ login(email_address,password): bool&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;+isUserRegistered(): bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getUserName(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ updateProfile(): void&lt;/div&gt;&lt;div&gt;+isTwoFactorEnabled(): bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="12Ewsj-NQ9XgnYStTim0-6" vertex="1">
           <mxGeometry y="108" width="228" height="70" as="geometry" />
         </mxCell>
         <mxCell id="12Ewsj-NQ9XgnYStTim0-13" value="Payment" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -46,18 +45,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ci5z_93IGyPFxpvWvL-L-6" value="Platform" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="350" width="230" height="188" as="geometry">
+          <mxGeometry x="140" y="350" width="249" height="194" as="geometry">
             <mxRectangle x="260" y="20" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ci5z_93IGyPFxpvWvL-L-9" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=north;" parent="ci5z_93IGyPFxpvWvL-L-6" vertex="1">
-          <mxGeometry y="26" width="230" height="8" as="geometry" />
+          <mxGeometry y="26" width="249" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5y_6-gBFONx3Z3cHwuN--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.752;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ci5z_93IGyPFxpvWvL-L-6" source="ci5z_93IGyPFxpvWvL-L-9" target="ci5z_93IGyPFxpvWvL-L-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ci5z_93IGyPFxpvWvL-L-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- getClosestVehicle(): void&lt;/div&gt;&lt;div&gt;- getClosestCustomer(): void&lt;/div&gt;&lt;div&gt;-isCarAvaliable (location): bool&lt;/div&gt;&lt;div&gt;- changeOSTo(operatingSystem) : void&lt;/div&gt;&lt;div&gt;- makeReservation (car): void&lt;/div&gt;&lt;div&gt;- register(): void&lt;/div&gt;&lt;div&gt;- makePayment(): void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ci5z_93IGyPFxpvWvL-L-6" vertex="1">
-          <mxGeometry y="34" width="230" height="130" as="geometry" />
+        <mxCell id="ci5z_93IGyPFxpvWvL-L-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- getClosestVehicle(): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;- getClosestCustomer(): customerAccount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-isCarAvaliable (location): bool&lt;/div&gt;&lt;div&gt;- changeOSTo(operatingSystem) : void&lt;/div&gt;&lt;div&gt;- makeReservation (car): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;- isReserved (car): bool&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;- cancelReservation (car): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- register(): void&lt;/div&gt;&lt;div&gt;- makePayment(): void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ci5z_93IGyPFxpvWvL-L-6" vertex="1">
+          <mxGeometry y="34" width="249" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ci5z_93IGyPFxpvWvL-L-16" value="Card" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="660" y="90" width="140" height="120" as="geometry" />
